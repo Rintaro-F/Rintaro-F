@@ -1,0 +1,5 @@
+"use strict";
+// @ts-ignore
+try {
+  self["workbox:navigation-preload:5.1.2"] && _();
+} catch (e) {}
