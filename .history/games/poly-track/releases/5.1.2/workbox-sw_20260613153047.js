@@ -54,7 +54,7 @@
     }
     i(t) {
       if (this.t.modulePathCb) return this.t.modulePathCb(t, this.t.debug);
-      let e = ["5.1.2"];
+      let e = ["https://storage.googleapis.com/workbox-cdn/releases/5.1.2"];
       const s = `${t}.${this.s}.js`,
         o = this.t.modulePathPrefix;
       return (

@@ -1,11 +1,8 @@
-importScripts(
-  "releases/5.1.2/workbox-sw.js",
-);
+importScripts("releases/5.1.2/workbox-sw.js");
 
 workbox.setConfig({
   modulePathPrefix: "releases"
 });
-
 
 const CACHE = "pwabuilder-page";
 
